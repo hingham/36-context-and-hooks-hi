@@ -12,8 +12,8 @@ const content = props =>{
                 console.log(context);
                 return(<div style={styles}> 
                     <h2>{context.count}</h2>
-                    <button onClick= {() => context.increment()}>Increment</button>
-                    <button onClick= {() => context.decrement()}>Decrement</button>
+                    <button id="increment" onClick= {() => context.increment()}>Increment</button>
+                    <button id="decrement" onClick= {() => context.decrement()}>Decrement</button>
                 </div>);
             }}
         </CountContext.Consumer>
