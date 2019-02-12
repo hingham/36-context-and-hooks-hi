@@ -10,6 +10,7 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

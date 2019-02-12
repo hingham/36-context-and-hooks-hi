@@ -1,6 +1,12 @@
 import React from 'react';
 export const SettingsContext = React.createContext();
 
+/**
+ *
+ *
+ * @class SettingsProvider
+ * @extends {React.Component}
+ */
 class SettingsProvider extends React.Component {
     constructor(props){
         super(props);

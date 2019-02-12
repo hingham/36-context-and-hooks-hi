@@ -7,6 +7,12 @@ import CountContent from './components/count-consumer.js';
 
 import './App.css';
 
+/**
+ *
+ *
+ * @class App
+ * @extends {React.Component}
+ */
 class App extends React.Component {
   constructor(props){
     super(props);
