@@ -1,46 +1,45 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB
-=================================================
 
-## Project Name
+## Project Name: Context and Hooks Counters
 
-### Author: Student/Group Name
+### Author: Hannah Ingham
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo](https://github.com/hingham/36-context-and-hooks-hi)
 * [travis](http://xyz.com)
 * [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
 
 #### Documentation
-* [swagger](http://xyz.com) (API assignments only)
-* [jsdoc](http://xyz.com) (All assignments)
+* [jsdoc] `./context-and-hooks/docs/index.html`
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `content.js`
+##### Exports content for title
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `context.js`
+##### Exports context for title
 
-###### `bar(array) -> array`
-Usage Notes or examples
+#### `count-consumer.js`
+##### Exports content for the counter
+
+#### `count-provider.js`
+##### Exports state with incrementCount function and decrementCount function for the counter
+
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `npm init react-app your-app-name`
+* `npm i ` all other dependencies is package.json
+
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/`
+  * Returns the page with the title and the counter
+
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* npm test
+
 
 #### UML
-Link to an image of the UML for your application and response to events
+![image](./assets/counter-uml.JPG)
