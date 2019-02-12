@@ -1,6 +1,12 @@
 import React from 'react';
 import {SettingsContext} from "./context.js";
 
+/**
+ *
+ *
+ * @param {*} props
+ * @returns dom elements
+ */
 const content = props =>{
     console.log('in props');
     return (

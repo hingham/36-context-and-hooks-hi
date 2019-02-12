@@ -32,7 +32,6 @@ describe('<Index>', () =>{
     describe('decrement', ()=>{
         it('subtracts one from the counter div', ()=>{
             let component = mount(<App/>);
-            
             // let count = component.find('div');
             let decrement = component.find('#decrement');
             decrement.simulate('click');

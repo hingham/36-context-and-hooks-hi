@@ -1,6 +1,12 @@
 import React from 'react';
 import {CountContext} from "./count-provider.js";
 
+/**
+ *
+ *
+ * @param {*} props
+ * @returns DOMelements
+ */
 const content = props =>{
     console.log('in props');
     return (
